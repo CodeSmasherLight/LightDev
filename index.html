@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img1.png" sizes="32px">
+    <title>Light Dev</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            background-color: #000;
+            color: #000;
+            font-family: 'Press Start 2P', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: black;
+            border: 5px solid blue;
+            margin-top: auto;
+            margin-bottom: auto;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: antiquewhite;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .p1 {
+            color: brown;
+            font-size: 10px;
+            line-height: 1.2;
+        }
+
+        .p2 {
+            color: cyan;
+            font-size: 10px;
+            line-height: 1.2;
+        }
+
+        .p3 {
+            color: rgb(31, 245, 31);
+            font-size: 10px;
+            line-height: 1.2;
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 11px;
+            }
+
+            .container {
+                padding: 15px;
+                border-width: 3px;
+            }
+        }
+
+        a {
+            color: yellow;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container img {
+            height: 50%;
+            width: 50%;
+        }
+
+        .container hr {
+            height: 2px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-width: 0;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="p1">
+            [<a href="" target="_blank">Home</a>]
+            [<a href="https://drive.google.com/file/d/14b3lyE_dBJHoL4KtOg_OW8hMpzllwYrg/view?usp=sharing">Resume</a>]
+            [<a href="https://github.com/CodeSmasherLight">Github</a>]
+            [<a href="https://twitter.com/equal_to_light">X/Twitter</a>]
+            [<a href="https://medium.com/@equal_to_light">My Blogs</a>]
+        </p>
+        <hr>
+        <h1>Hello!</h1>
+        <p class="p2">I'm </p>
+        <p class="p2">Satyam Singh.</p> 
+        <p class="p2">i am a last year student, studying biotechnology.</p>
+        <p class="p2">i code, sometimes play with data, and watch anime.</p>
+
+        <img src="assets/img3.png" alt="animePic">
+        <p class="p2"><b>PS: Slowly becoming a Generalist ;)</b></p>
+        <p class="p3" style="font-size: 8px;"> &copy; 2024 satyam</p>
+    </div>
+</body>
+
+</html>
